@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#050509">
+<title>NYXORAVEX — One Cosmos. Infinite Identities.</title><meta name="description" content="An endless universe of deterministic profiles. Every positive integer is a unique identity."><link rel="stylesheet" href="style.css"></head>
+<body>
+<header id="hdr"><div class="bar"><div class="brand"><b><span class="sym" aria-hidden="true">✦</span> NYXORAVEX</b><small>ONE COSMOS. INFINITE IDENTITIES.</small></div>
+<div class="act"><button id="sb" class="ib" aria-label="Search profile number" aria-expanded="false" aria-controls="sp"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+<button id="tb" class="ib" aria-label="Settings" aria-expanded="false" aria-controls="tp"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h10M18 8h2M4 16h2M10 16h10"/><circle cx="16" cy="8" r="2"/><circle cx="8" cy="16" r="2"/></svg></button></div></div>
+<form id="sp" class="pn" hidden><label for="q">Profile number (any positive integer)</label><div class="row"><input id="q" type="text" inputmode="numeric" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. 999999999999999999999999"><button class="b pri" type="submit">Open profile</button></div><p id="err" class="err" role="alert"></p></form>
+<div id="tp" class="pn" hidden><label class="chk"><input type="checkbox" id="sa"> Animations</label><label class="chk"><input type="checkbox" id="sc"> Compact cards</label><label>Accent color <select id="ss"><option value="#22D3EE">Cyan</option><option value="#7C3AED">Violet</option><option value="#E879F9">Magenta</option><option value="#F5C451">Gold</option></select></label></div></header>
+<main id="main"><div id="feed" aria-label="Profile feed"></div><div id="end" aria-hidden="true"></div></main>
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="mt" hidden><div class="mbox"><div id="mbody"></div>
+<div class="nav"><button id="prev" class="b">Previous</button><button id="next" class="b">Next</button><button id="cn" class="b">Copy number</button><button id="cl" class="b">Copy link</button><button id="back" class="b pri">Return to feed</button></div></div></div>
+<div id="toast" class="toast" role="status" hidden></div>
+<noscript><p style="padding:20px">NYXORAVEX needs JavaScript to generate its universe.</p></noscript>
+<script src="script.js"></script></body></html>
